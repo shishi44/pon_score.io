@@ -1,0 +1,19 @@
+{
+  "name": "PON! SCORE 卓球スコアボード",
+  "short_name": "PON! SCORE",
+  "description": "横向きスマホで使う音声付き卓球得点板",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#f2f5ec",
+  "theme_color": "#b8f276",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

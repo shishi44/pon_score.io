@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <base href="./" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f6f8ef" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="横向きスマートフォンで使う、音声付き卓球スコアボード" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PON! SCORE | 卓球スコアボード" />
+    <meta property="og:description" content="サーブ権とコートチェンジを自動管理する卓球得点板" />
+    <meta property="og:image" content="./og.png" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <title>PON! SCORE | 卓球スコアボード</title>
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("pon-score-theme") === "dark" ? "dark" : "light";
+      } catch {}
+    </script>
+    <script type="module" crossorigin src="./assets/index-DZVXYIkC.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CpNlFEJA.css">
+    <link rel="stylesheet" href="./assets/custom-ui.css" />
+    <script type="module" src="./assets/custom-ui.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
